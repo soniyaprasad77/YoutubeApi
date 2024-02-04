@@ -1,0 +1,32 @@
+{
+  "name": "youtube-like-app",
+  "version": "1.0.0",
+  "description": "It is an app which is similar to youtube having some of twitter functionality integrated to it",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soniyaprasad77/Youtube-Like-App.git"
+  },
+  "keywords": [
+    "backend",
+    "frontend",
+    "mongoose",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soniyaprasad77/Youtube-Like-App/issues"
+  },
+  "homepage": "https://github.com/soniyaprasad77/Youtube-Like-App#readme",
+  "devDependencies": {
+    "dotenv": "^16.4.1",
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.5"
+  }
+}
