@@ -23,8 +23,8 @@ Welcome to the YouTube Clone project! This full-stack web application replicates
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/youtube-clone.git
-   cd youtube-clone
+   git clone https://github.com/your-username/Youtube-Like-App.git
+   cd Youtube-Like-App
    ```
 
 2. Install dependencies:
