@@ -47,7 +47,6 @@ const userSchema = new Schema(
   },
   { timestamps: true }
 );
-
 //here we are not using arrow functions because we have to use this keyword to get the elements of userSchema
 userSchema.pre("save", async function (next) {
   if (!this.isModified("password")) return next();
@@ -72,7 +71,7 @@ userSchema.methods.generateAccessToken = function () {
     }
   );
 };
-userSchema.methods.generateAccessToken = function () {
+userSchema.methods.generateRefreshToken = function () {
   return jwt.sign(
     {
       _id: this._id,
