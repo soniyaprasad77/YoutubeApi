@@ -1,14 +1,14 @@
 
 # YouTube Clone: React, Express, Node, MongoDB
 
-Welcome to the YouTube Clone project! This full-stack web application replicates the core features of YouTube, allowing users to upload, view, and interact with videos. Built with React on the frontend, Express and Node.js on the backend, and MongoDB for data storage.
+Welcome to the YouTube Like App project! This full-stack web application replicates the core features of YouTube, allowing users to upload, view, and interact with videos. Built with React on the front end, Express and Node.js on the backend, and MongoDB for data storage.
 
 ## Features:
 
 - **User Authentication:** Secure user registration and login functionality using JWT tokens.
 - **Video Management:** Upload, delete, and update video details seamlessly.
 - **Video Playback:** Smooth video playback with a customizable video player.
-- **Comments and Likes:** Engage with videos through comments and likes.
+- **Comments and Likes like Twitter UI:** Engage with videos through comments and likes.
 - **Responsive Design:** A mobile-friendly interface for a seamless user experience across devices.
 
 ## Tech Stack:
@@ -16,7 +16,7 @@ Welcome to the YouTube Clone project! This full-stack web application replicates
 - **Frontend:** React, React Router, Axios
 - **Backend:** Express, Node.js, JWT for authentication
 - **Database:** MongoDB
-- **Styling:** CSS, Bootstrap for styling components
+- **Styling:** CSS, Tailwind for styling components
 
 ## Setup:
 
