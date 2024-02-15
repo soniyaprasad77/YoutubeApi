@@ -3,20 +3,6 @@
 
 Welcome to the YouTube Like App project! This full-stack web application replicates the core features of YouTube, allowing users to upload, view, and interact with videos. Built with React on the front end, Express and Node.js on the backend, and MongoDB for data storage.
 
-## Features:
-
-- **User Authentication:** Secure user registration and login functionality using JWT tokens.
-- **Video Management:** Upload, delete, and update video details seamlessly.
-- **Video Playback:** Smooth video playback with a customizable video player.
-- **Comments and Likes like Twitter UI:** Engage with videos through comments and likes.
-- **Responsive Design:** A mobile-friendly interface for a seamless user experience across devices.
-
-## Tech Stack:
-
-- **Frontend:** React, React Router, Axios
-- **Backend:** Express, Node.js, JWT for authentication
-- **Database:** MongoDB
-- **Styling:** CSS, Tailwind for styling components
 
 ## Setup:
 
@@ -30,8 +16,8 @@ Welcome to the YouTube Like App project! This full-stack web application replica
 2. Install dependencies:
 
    ```bash
-   cd client && npm install
-   cd ../server && npm install
+    npm install
+  
    ```
 
 3. Configure environment variables:
@@ -39,19 +25,24 @@ Welcome to the YouTube Like App project! This full-stack web application replica
    - Create a `.env` file in the `server` directory and set the following variables:
 
      ```
-     PORT=3001
-     MONGO_URI=your_mongo_db_connection_string
-     JWT_SECRET=your_jwt_secret
+         PORT = 3000
+         MONGODB_URI=mongodb+srv://soniyaprasad:<your-password>@cluster0.ojkspsq.mongodb.net
+         CORS_ORIGIN=*
+         ACCESS_TOKEN_SECRET= chai-aur-code
+         ACCESS_TOKEN_EXPIRY= 1d
+         REFRESH_TOKEN_SECRET=chai-aur-backend
+         REFRESH_TOKEN_EXPIRY =10d
+         CLOUDINARY_CLOUD_NAME=your Cloudinary name
+         CLOUDINARY_API_KEY=your Cloudinary API key
+         CLOUDINARY_API_SECRET= your API secret
      ```
 
 4. Start the application:
 
    ```bash
    # In the server directory
-   npm start
+   npm run dev
 
-   # In the client directory
-   npm start
    ```
 
 5. Open your browser and navigate to `http://localhost:3000` to view the application.
