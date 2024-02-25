@@ -10,7 +10,7 @@ Welcome to the WatchNext App project! This full-stack web application replicates
 
    ```bash
    git clone https://github.com/your-username/WatchNext.git
-   cd Youtube-Like-App
+   cd WatchNext
    ```
 
 2. Install dependencies:
