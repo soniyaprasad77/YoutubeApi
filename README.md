@@ -1,7 +1,7 @@
 
-# YouTube Clone: React, Express, Node, MongoDB
+# WatchNext: React, Express, Node, MongoDB
 
-Welcome to the YouTube Like App project! This full-stack web application replicates the core features of YouTube, allowing users to upload, view, and interact with videos. Built with React on the front end, Express and Node.js on the backend, and MongoDB for data storage.
+Welcome to the WatchNext App project! This full-stack web application replicates the core features of YouTube, allowing users to upload, view, and interact with videos. Built with React on the front end, Express and Node.js on the backend, and MongoDB for data storage.
 
 
 ## Setup:
@@ -9,7 +9,7 @@ Welcome to the YouTube Like App project! This full-stack web application replica
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/Youtube-Like-App.git
+   git clone https://github.com/your-username/WatchNext.git
    cd Youtube-Like-App
    ```
 
