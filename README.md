@@ -1,7 +1,7 @@
 
-# WatchNext: React, Express, Node, MongoDB
+# WatchNext: Backend
 
-Welcome to the WatchNext App project! This full-stack web application replicates the core features of YouTube, allowing users to upload, view, and interact with videos. Built with React on the front end, Express and Node.js on the backend, and MongoDB for data storage.
+Welcome to the WatchNext App project! This full-stack web( in progress ) application replicates the core features of YouTube, allowing users to upload, view, and interact with videos.
 
 
 ## Setup:
